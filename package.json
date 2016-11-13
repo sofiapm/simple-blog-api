@@ -7,5 +7,9 @@
     "type": "git"
   },
   "author": "Sofia Martins",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-router": "^5.4.0"
+  }
 }
