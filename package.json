@@ -1,0 +1,11 @@
+{
+  "name": "simple-blog-api",
+  "version": "1.0.0",
+  "main": "api",
+  "repository": {
+    "url": "https://github.com/sofiapm/simple-blog-api",
+    "type": "git"
+  },
+  "author": "Sofia Martins",
+  "license": "MIT"
+}
