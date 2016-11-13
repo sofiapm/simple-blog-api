@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+'use strict';
+
+/**
+ * Module dependencies.
+ */
+
+const path = require('path');
+const server = require(path.resolve('src'));
+
+/**
+ * Options.
+ */
+
+const program = {
+    port: '3040',
+    host:  '127.0.0.1',
+    backlog: 511
+};
+
+// App.
+const app = server();
+
+// Listen.
+app.listen(program.port, program.host, program.backlog);
+
+// Log server status.
+console.log(`Listening on ${program.host}:${program.port}`);

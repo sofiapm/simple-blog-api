@@ -1,13 +1,15 @@
 {
   "name": "simple-blog-api",
   "version": "1.0.0",
-  "main": "api",
+  "scripts": {
+    "start": "./bin/api"
+  },
   "repository": {
     "url": "https://github.com/sofiapm/simple-blog-api",
     "type": "git"
   },
-  "author": "Sofia Martins",
-  "license": "MIT",
+  "author": "sofiapm",
+  "license": "UNLICENSED",
   "dependencies": {
     "koa": "^1.2.4",
     "koa-router": "^5.4.0"
